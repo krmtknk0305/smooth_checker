@@ -13,8 +13,12 @@
 </head>
 <body>
     <header>
+        <h1>smooth checker</h1>
     </header>
-  @yield('content')
+    @yield('content')
+    <footer>
+        <p>作成工数 : 3人日 ※8時間を1人日とする。<p>
+        <small>© 2023 Mayu Sato</small>
     </footer>
 </body>
 </html>
