@@ -25,7 +25,7 @@ a {
   text-decoration: none;
 }
 
-button {
+#btn {
   color: #fff;
   background-color: #ccc5b9;
   border: none;
@@ -38,7 +38,7 @@ button {
   margin: 0 1rem;
 }
 
-button:hover {
+#btn:hover {
   background-color: #fff;
   color: #ccc5b9;
   border-radius: 3rem;
@@ -48,10 +48,9 @@ button:hover {
 h1 {
   position: absolute;
   top: 0;
-  left: 8px;
+  left: 16px;
   padding: 1rem;
   color: #ccc5b9;
-  width: 300px;
   font-size: 2rem;
 }
 
@@ -61,4 +60,20 @@ footer {
   text-align: right;
   background-color: #ccc5b9;
   color: #fff;
+}
+
+h2 {
+  position: absolute;
+  top: 24px;
+  padding: 0 1rem;
+  left: 300px;
+  color: #ccc5b9;
+  border-left: 1px solid #ccc5b9;
+}
+
+h3 {
+  padding: 2rem 0 0 1rem;
+  margin-top: 2rem;
+  color: #ccc5b9;
+  border-bottom: 2px dotted #ccc5b9;
 }

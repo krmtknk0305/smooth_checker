@@ -3,26 +3,27 @@
 #index {
   width: 100%;
   padding-top: 3rem;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: #d9d9d9;
 }
 
-table {
-  width: 90vw;
-  margin: 0 auto;
+#index table {
+  min-width: 72vw;
   text-align: left;
+  margin-left: 256px;
+  margin-right: 200px;
 }
 
-table th {
+#index table th {
   text-align: left;
   padding: 0.4rem;
   color: #b1b1b1;
 }
 
-table tr {
+#index table tr {
   background-color: #fff;
 }
 
-table td {
+#index table td {
   padding: 0.4rem;
 }
 
@@ -45,16 +46,18 @@ table tr td:nth-child(5) {
   text-align: center;
   width: 200px;
   height: 212px;
+  box-shadow: 0 0.4rem 0.6rem hsl(0 0% 0% / 36%);
+  top: 280px;
+  left: 28px;
 }
 
-#create {
+.in #btn {
   position: absolute;
   bottom: 1rem;
-  right: 56px;
-
+  right: 52px;
 }
 
-.s_c {
+.select_btn {
   border: 1px solid #b1b1b1;
   border-radius: 1rem;
   width: 50%;

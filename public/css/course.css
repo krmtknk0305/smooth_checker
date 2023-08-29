@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+textarea {
+  width: 300px;
+  margin-right: 2rem;
+  border: 1px solid #b1b1b1;
+}
+
+/* 登録済みコース一覧 */
+#course {
+  width: 98%;
+}
+
+.course_table {
+  display: flex;
+}
+
+#course #td_name {
+  padding-left: 1rem;
+}
+
+#course table {
+  background-color: #d9d9d9;
+  margin: 0.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.3rem 0.4rem hsl(0 0% 0% / 36%);
+}
+
+#course td {
+  display: flex;
+  margin: 1rem;
+}
+
+#course #tab,
+#course button {
+  background-color: #fff;
+  color: #b1b1b1;
+  height: 2rem;
+  width: 4rem;
+  border: none;
+  border-left: 1px solid #d9d9d9;
+  transition: 0.4s;
+}
+
+#course #tab:hover,
+#course button:hover {
+  background-color: #eb5e28;
+  color: #fff;
+}
+
+/*画面下部コース追加*/
+.edit_course {
+  padding-left: 1rem;
+}
+
+.edit_course form {
+  display: flex;
+}
+
+.edit_course #btn {
+  color: #fff;
+  background-color: #ccc5b9;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 2.4rem;
+  text-align: center;
+  box-shadow: 0 0.2rem 0.1rem hsl(0 0% 0% / 36%);
+  display: block;
+  transition: 0.6s;
+  margin: 2rem 0;
+  width: fit-content;
+}
+
+.edit_course #btn:hover {
+  background-color: #fff;
+  color: #ccc5b9;
+  border-radius: 3rem;
+  transform: translateY(5px);
+}
+
+/* コース名称確認画面 */
+.confirm_course {
+  padding-left: 1rem;
+}
+
+.confirm_course p {
+  border-left: 4px solid #ccc5b9;
+  padding: 0 1rem;
+}
+
+.confirm_course #btn {
+  margin-top: 2rem;
+}

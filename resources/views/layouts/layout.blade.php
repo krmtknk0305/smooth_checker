@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ asset('css/reset.css') }}">
     <link rel="stylesheet" href="{{ asset('css/common.css') }}">
     <link rel="stylesheet" href="{{ asset('css/index.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/course.css') }}">
     <script src="{{ asset('js/jQuery-3.7.0.min.js') }}"></script>
     <script src="{{ asset('js/script.js') }}"></script>
 </head>
@@ -17,7 +18,7 @@
     </header>
     @yield('content')
     <footer>
-        <p>作成工数 : 3人日 ※8時間を1人日とする。<p>
+        <p>作成工数 : 6人日 ※8時間を1人日とする。<p>
         <small>© 2023 Mayu Sato</small>
     </footer>
 </body>
