@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{ asset('css/reset.css') }}">
     <link rel="stylesheet" href="{{ asset('css/common.css') }}">
     <link rel="stylesheet" href="{{ asset('css/index.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/course.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/menu.css') }}">
     <script src="{{ asset('js/jQuery-3.7.0.min.js') }}"></script>
     <script src="{{ asset('js/script.js') }}"></script>
 </head>

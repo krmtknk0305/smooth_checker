@@ -4,7 +4,7 @@
 <section id="course_update">
     <h2>コース登録・変更</h2>
     <h3>内容確認</h3>
-    <div class="confirm_course">
+    <div class="confirm_menu">
         <span>選択された項目</span>
         <p>{{ $course_name }}</p>
         <form action="courses_update" method="post" class="">

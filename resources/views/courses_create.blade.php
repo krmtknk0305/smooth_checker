@@ -4,7 +4,7 @@
 <section id="course_create">
     <h2>コース登録・変更</h2>
     <h3>内容確認</h3>
-    <div class="confirm_course">
+    <div class="confirm_menu">
         <span>この内容で登録します。よろしいですか？</span>
         <form action="courses_store" method="post" class="">
             <input type="hidden" name="course_name" value="{{ $course_name }}">

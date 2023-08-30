@@ -25,6 +25,7 @@ a {
   text-decoration: none;
 }
 
+button,
 #btn {
   color: #fff;
   background-color: #ccc5b9;
@@ -38,6 +39,7 @@ a {
   margin: 0 1rem;
 }
 
+button:hover,
 #btn:hover {
   background-color: #fff;
   color: #ccc5b9;

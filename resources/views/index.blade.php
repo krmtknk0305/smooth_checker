@@ -2,8 +2,8 @@
 
 @section('content')
 <div class="edit_btn">
-    <a href ="courses"><button" id="btn">コース名編集</button></a>
-    <a href ="seats"><button id="btn">テーブル番号編集</button></a>
+    <a href ="courses"><button>コース名編集</button></a>
+    <a href ="seats"><button>テーブル番号編集</button></a>
 </div>
 <section id="index">
     <table>
